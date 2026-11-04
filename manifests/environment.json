@@ -1,0 +1,29 @@
+{
+  "observed_on": "2026-11-04",
+  "host": "Ubuntu 24.04 x86_64 ThinkBook",
+  "target_os": "Ubuntu 22.04.2 LTS",
+  "target_arch": "aarch64",
+  "AIDLUX_EDITION": "linux",
+  "ROOTFS_VERSION": "50",
+  "python": "3.10.12",
+  "aidlite_runtime": "V2.5.0.284_5521ce6_20260810",
+  "hardware_observations": {
+    "soc_machine": "QCS_KALAMAP",
+    "soc_id": "603",
+    "soc_revision": "2.0",
+    "cpu_present": "0-5",
+    "cpu_possible": "0-5",
+    "cpu_online": "0-5",
+    "gpu_model": "Adreno740v2"
+  },
+  "MemTotal_KiB": 15550492,
+  "root_filesystem_total_bytes": 110793555968,
+  "board_pcb_revision": "NOT_ESTABLISHED",
+  "full_qnn_sdk": "NOT_ESTABLISHED",
+  "gpu_inference": "NOT_TESTED",
+  "actual_hardware_profiling": "NOT_COLLECTED",
+  "power_adapter_label": {
+    "model": "P60EB120500",
+    "output": "12V DC / 5A / 60W rated; not measured board draw"
+  }
+}
