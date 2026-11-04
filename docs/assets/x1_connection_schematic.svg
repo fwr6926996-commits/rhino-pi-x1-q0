@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+<title id="title">X1 开发连接示意图</title>
+<desc id="desc">原创逻辑示意图：ThinkBook 经 USB 和 ADB 与 X1 连接，外置适配器提供 DC 供电。PCB 修订号未确认。不是 PCB 布局、引脚图或设备版本证明。</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#2563eb"/></marker><marker id="power" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#64748b"/></marker></defs>
+<rect width="1200" height="500" fill="#ffffff"/>
+<g font-family="Noto Sans CJK SC, sans-serif">
+<text x="50" y="49" font-size="30" font-weight="700" fill="#0f172a">X1 开发连接示意</text>
+<text x="50" y="82" font-size="17" fill="#475569">原创逻辑图 · 根据实拍与已归档日志整理 · 2026-11-04</text>
+<rect x="50" y="155" width="310" height="130" rx="16" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+<text x="75" y="196" font-size="23" font-weight="700" fill="#0f172a">ThinkBook 开发电脑</text>
+<text x="75" y="231" font-size="19" fill="#334155">Ubuntu 24.04</text>
+<text x="75" y="260" font-size="19" fill="#334155">ADB 主机工具</text>
+<rect x="700" y="128" width="450" height="257" rx="16" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+<text x="728" y="171" font-size="24" font-weight="700" fill="#0f172a">Rhino Pi X1（借测设备）</text>
+<text x="728" y="217" font-size="20" fill="#334155">Ubuntu 22.04.2 / rootfs 50</text>
+<text x="728" y="255" font-size="20" fill="#334155">AidLite 2.5.0.284</text>
+<text x="728" y="293" font-size="20" fill="#334155">板端 USB 数据连接 / DC 电源输入</text>
+<text x="728" y="347" font-size="20" font-weight="700" fill="#9a3412">PCB 修订号：未确认</text>
+<line x1="374" y1="220" x2="685" y2="220" stroke="#2563eb" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="530" y="193" text-anchor="middle" font-size="19" fill="#1d4ed8">USB / ADB 数据链路</text>
+<rect x="50" y="335" width="310" height="90" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="75" y="370" font-size="21" font-weight="700" fill="#334155">外置电源适配器</text>
+<text x="75" y="403" font-size="19" fill="#334155">铭牌：12 V / 5 A / 60 W</text>
+<path d="M360 380 H530 V315 H685" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#power)"/>
+<text x="564" y="359" font-size="19" fill="#475569">DC 供电</text>
+<text x="50" y="471" font-size="17" fill="#64748b">示意图不代表 PCB 布局、针脚定义或硬件版本；适配器额定值不等于板卡实测功耗。</text>
+</g></svg>
