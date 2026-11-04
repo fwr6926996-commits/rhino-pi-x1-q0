@@ -1,0 +1,120 @@
+{
+  "measurement_date": "2026-11-04",
+  "date_basis": "Preserved target run metadata and original logs.",
+  "scope": "Q0 fixed-image vendor-sample exploration; not a performance/accuracy/hardware qualification or robot runtime deployment",
+  "runs": [
+    {
+      "id": "Q0-SAMPLE-01",
+      "backend_requested": "ONNX CPU",
+      "uid": 2000,
+      "invokes": 10,
+      "result": "Completed with input-copy warning",
+      "timing_ms": {
+        "scope": "sample time.time() around invoke, not full pipeline; 10 samples; no separate warmup",
+        "unit": "ms",
+        "mean": 149.02567863464355,
+        "min": 145.12920379638672,
+        "max": 159.637451171875,
+        "sum": 1490.2567863464355,
+        "values": [
+          159.637451171875,
+          152.17328071594238,
+          147.78685569763184,
+          146.52371406555176,
+          146.0869312286377,
+          148.66089820861816,
+          146.5775966644287,
+          149.92451667785645,
+          145.12920379638672,
+          147.75633811950684
+        ],
+        "target_supervisor_elapsed_s": 2.521329531,
+        "qualification": "OBSERVATION_ONLY_NO_PERFORMANCE_OR_REALTIME_ADMISSION"
+      }
+    },
+    {
+      "id": "Q0-SAMPLE-02",
+      "backend_requested": "TFLite DSP",
+      "uid": 2000,
+      "invokes": 0,
+      "result": "HTP delegate application failed, 110031"
+    },
+    {
+      "id": "Q0-SAMPLE-03",
+      "backend_requested": "TFLite CPU",
+      "uid": 2000,
+      "invokes": 10,
+      "result": "Completed; XNNPACK CPU delegate creation logged",
+      "timing_ms": {
+        "values": [
+          115.6916618347168,
+          75.5157470703125,
+          74.32675361633301,
+          74.33319091796875,
+          75.2255916595459,
+          74.36156272888184,
+          74.37300682067871,
+          74.39684867858887,
+          74.2957592010498,
+          74.493408203125
+        ],
+        "mean": 78.70135307312012,
+        "min": 74.2957592010498,
+        "max": 115.6916618347168,
+        "sum": 787.0135307312012,
+        "first": 115.6916618347168,
+        "scope": "sample time.time(), no separate warmup; all 10 calls retained; observation only"
+      }
+    },
+    {
+      "id": "Q0-DIAG-04",
+      "backend_requested": "TFLite DSP with strace",
+      "uid": 2000,
+      "invokes": 0,
+      "result": "RPC access block observed; 8 EACCES, 4 ENOENT; no successful RPC open in captured route"
+    },
+    {
+      "id": "Q0-SAMPLE-05",
+      "backend_requested": "TFLite DSP",
+      "uid": 1007,
+      "groups": [
+        27,
+        1000,
+        1004
+      ],
+      "invokes": 10,
+      "result": "HTP-configured sample completed, no fallback log observed; per-node hardware coverage not collected",
+      "timing_ms": {
+        "values": [
+          2.2780895233154297,
+          1.519918441772461,
+          1.4815330505371094,
+          1.4755725860595703,
+          1.47247314453125,
+          1.4684200286865234,
+          1.4717578887939453,
+          1.4719963073730469,
+          1.4882087707519531,
+          1.4774799346923828
+        ],
+        "mean": 1.5605449676513672,
+        "min": 1.4684200286865234,
+        "max": 2.2780895233154297,
+        "first": 2.2780895233154297,
+        "sum": 15.605449676513672,
+        "scope": "Sample time.time() invoke-only interval, all 10 calls retained, no separate warmup; not preprocessing/loading/postprocessing/end-to-end deadline or a sustained benchmark"
+      }
+    }
+  ],
+  "source_log_sha256": {
+    "Q0-SAMPLE-01": "3e7a039bb6515757a15844a037f57aa53ae4254a4133cb36576e024314ef28f1",
+    "Q0-SAMPLE-03": "8ff2a71573062f7905db5b42672cb00ecd9ccdf2fbc35cbe34f90000ff9a00ee",
+    "Q0-SAMPLE-05": "afbdce2a892518c34e214d520d7605ee86a6b563bc88695ebe6db698e63656de"
+  },
+  "limits": [
+    "Different account/environment and unpaired timings; no chip speedup claim",
+    "No whole-graph NPU attribution, sustained benchmark or numerical oracle",
+    "Vendor models, SDK, bus.jpg and detector output JPEGs are not redistributed",
+    "Raw device logs and unique identifiers remain local"
+  ]
+}
