@@ -1,0 +1,71 @@
+{
+  "status": "STATIC_CANDIDATE_NOT_EXECUTED",
+  "files": [
+    {
+      "path": "/usr/local/share/aidlite/examples/aidlite_tflite/python/tflite_yolov5_multi.py",
+      "exists": true,
+      "sha256": "88ae8564a835f4bd1a6fb01f44c238a48236d8e12391863fc04c0f0f8fb3b126",
+      "size_bytes": 17249
+    },
+    {
+      "path": "/usr/local/share/aidlite/examples/aidlite_tflite/data/tflite_yolov5_multi/cutoff_yolov5s_640_int8.tflite",
+      "exists": true,
+      "sha256": "3f1eb9278f59f059e1ac84195f40ea98f292f2463c032b58e3100fa6a6b00dfb",
+      "size_bytes": 7568680
+    },
+    {
+      "path": "/usr/local/share/aidlite/examples/aidlite_tflite/data/tflite_yolov5_multi/bus.jpg",
+      "exists": true,
+      "sha256": "fb4914d123d97c440cd127ef0e98d4bdc68cd88e2683657528928b4a34014e16",
+      "size_bytes": 181374
+    },
+    {
+      "path": "/usr/local/lib/libaidlite.so",
+      "exists": true,
+      "sha256": "4807e38faec82f9e3065be1009233c68ae09f5a98aa0dd3a6cbc42f9e1a19dab",
+      "size_bytes": 2102304
+    },
+    {
+      "path": "/usr/local/lib/libaidlite_tflite.so",
+      "exists": true,
+      "sha256": "fdc1424cc33a09aa5a4412e1af09564a41a2b940b1e3ce19a11fcd87845a307e",
+      "size_bytes": 8389184
+    },
+    {
+      "path": "/usr/local/lib/aidlux/aidlite/tflite/delegate/libQnnTFLiteDelegate.so",
+      "exists": true,
+      "sha256": "c59d38cd51c40286729ff0a44a55f00cdcff5c205ee94472df6852ba6b7e3d49",
+      "size_bytes": 991160
+    },
+    {
+      "path": "/usr/local/lib/aidlux/aidlite/tflite/delegate/libQnnHtp.so",
+      "exists": true,
+      "sha256": "43bf07ab906918f046277da76703a01d56932bb078250cd1dd805c77d7390e78",
+      "size_bytes": 1940056
+    },
+    {
+      "path": "/usr/local/lib/aidlux/aidlite/tflite/delegate/libQnnSystem.so",
+      "exists": true,
+      "sha256": "a65251f0c706f7dc27e15893f5232d7bde2198cdec4502fb49c5f76b626997c7",
+      "size_bytes": 141376
+    },
+    {
+      "path": "/usr/local/lib/aidlux/aidlite/tflite/delegate/libQnnHtpPrepare.so",
+      "exists": true,
+      "sha256": "bfa90f1fe3b2aff80d53c52ead2a0dffdba6d2be0db6b9f0cf1a50195fe221e0",
+      "size_bytes": 56154560
+    },
+    {
+      "path": "/usr/local/lib/aidlux/aidlite/tflite/delegate/libQnnHtpV73Stub.so",
+      "exists": true,
+      "sha256": "25927932e927dff847f38296ea9c801c4d80c42aa55660dde77e53c3e2dfba0a",
+      "size_bytes": 202736
+    },
+    {
+      "path": "/usr/local/lib/aidlux/aidlite/tflite/delegate/libQnnHtpV73Skel.so",
+      "exists": true,
+      "sha256": "13249311402f735b81396a85af4699b35fae3676e722a2848ace25c0510c20f6",
+      "size_bytes": 8502100
+    }
+  ]
+}
