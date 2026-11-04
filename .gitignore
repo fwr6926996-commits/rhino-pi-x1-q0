@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+local/
+private/
+model_cache*/
+*.onnx
+*.tflite
+*.ctx.bin
+*.zip
+*.key
+*.pem
+.env
