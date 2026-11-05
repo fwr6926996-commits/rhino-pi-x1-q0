@@ -1,0 +1,51 @@
+[Q0-SAMPLE-01] stdout sha256=3e7a039bb6515757a15844a037f57aa53ae4254a4133cb36576e024314ef28f1
+detect model load success!
+current [0] invoke cost time :159.637451171875 ms
+current [9] invoke cost time :147.75633811950684 ms
+检测到4个区域
+stderr sha256=2083b74bd2901750a8dccf98c55561c70b50dcabccd45172bf024bc76af23cc9
+
+[Q0-SAMPLE-02] stdout sha256=84b43ce0b5726b174ac1637dff637bc17753b855eae886119c17515819f11ca7
+[E20261104 18:40:21.988951 104349] [impl_tflite.cpp:574] [aidlite_tflite] Tflite modify graph with htp delegate failed.
+[E20261104 18:40:21.988967 104349] [impl_tflite.cpp:578] [aidlite_tflite] StatusCode[110031]==>>TFLite ModifyGraphWithDelegate failed. Please contact SDK developer for diagnosis and repair.
+[E20261104 18:40:21.988994 104349] [aidlite.cpp:1546] [aidlite_core] The backend load model failed.
+interpreter load model failed !
+stderr sha256=0451888271e13f4ef2f422e2b6753ab17cc5ad36beedeb415951074aa26a5684
+
+[Q0-SAMPLE-03] stdout sha256=8ff2a71573062f7905db5b42672cb00ecd9ccdf2fbc35cbe34f90000ff9a00ee
+[I20261104 18:49:12.732206 114419] [impl_tflite.cpp:591] [aidlite_tflite] Allocate tensors Success.
+detect model load success!
+current [0] invoke cost time :115.6916618347168 ms
+current [9] invoke cost time :74.493408203125 ms
+检测到4个区域
+stderr sha256=d46ea5e3054b5ea645bcf053b27d586f0b4908b976e3b23c2df3edd0063b7604
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+[Q0-DIAG-04] stdout sha256=db5784e8d4020fe03f89e6e84970193693eaa8b791bc558cb15c35cf16677287
+[E20261104 19:07:50.203901 135548] [impl_tflite.cpp:574] [aidlite_tflite] Tflite modify graph with htp delegate failed.
+[E20261104 19:07:50.204170 135548] [impl_tflite.cpp:578] [aidlite_tflite] StatusCode[110031]==>>TFLite ModifyGraphWithDelegate failed. Please contact SDK developer for diagnosis and repair.
+[E20261104 19:07:50.204453 135548] [aidlite.cpp:1546] [aidlite_core] The backend load model failed.
+interpreter load model failed !
+stderr sha256=b558ed1f4abd6396ac9e1225ddf4e96f792facb3f627dbe162a94377d362deb4
+
+[Q0-SAMPLE-05] stdout sha256=afbdce2a892518c34e214d520d7605ee86a6b563bc88695ebe6db698e63656de
+[I20261104 19:38:11.286399 170064] [impl_tflite.cpp:591] [aidlite_tflite] Allocate tensors Success.
+detect model load success!
+current [0] invoke cost time :2.2780895233154297 ms
+current [9] invoke cost time :1.4774799346923828 ms
+检测到4个区域
+stderr sha256=69adc9a73e82d3bad6f19d6adc963f997d82f98102004ff11e55e2905ef3ccdb
+
+[Q0-DIAG-04 RPC open excerpts; original trace line numbers]
+syscalls.135548:2907 1793790470.199696 openat(AT_FDCWD, "/dev/adsprpc-smd-secure", O_RDONLY|O_NONBLOCK) = -1 EACCES (Permission denied) <0.000025>
+syscalls.135548:2908 1793790470.199776 openat(AT_FDCWD, "/dev/cdsprpc-smd", O_RDONLY|O_NONBLOCK) = -1 ENOENT (No such file or directory) <0.000025>
+syscalls.135548:2909 1793790470.199848 openat(AT_FDCWD, "/dev/adsprpc-smd", O_RDONLY|O_NONBLOCK) = -1 EACCES (Permission denied) <0.000026>
+syscalls.135548:2910 1793790470.200354 openat(AT_FDCWD, "/dev/adsprpc-smd-secure", O_RDONLY|O_NONBLOCK) = -1 EACCES (Permission denied) <0.000025>
+syscalls.135548:2911 1793790470.200436 openat(AT_FDCWD, "/dev/cdsprpc-smd", O_RDONLY|O_NONBLOCK) = -1 ENOENT (No such file or directory) <0.000028>
+syscalls.135548:2912 1793790470.200509 openat(AT_FDCWD, "/dev/adsprpc-smd", O_RDONLY|O_NONBLOCK) = -1 EACCES (Permission denied) <0.000022>
+syscalls.135548:2913 1793790470.201233 openat(AT_FDCWD, "/dev/adsprpc-smd-secure", O_RDONLY|O_NONBLOCK) = -1 EACCES (Permission denied) <0.000023>
+syscalls.135548:2914 1793790470.201314 openat(AT_FDCWD, "/dev/cdsprpc-smd", O_RDONLY|O_NONBLOCK) = -1 ENOENT (No such file or directory) <0.000025>
+syscalls.135548:2915 1793790470.201387 openat(AT_FDCWD, "/dev/adsprpc-smd", O_RDONLY|O_NONBLOCK) = -1 EACCES (Permission denied) <0.000023>
+syscalls.135548:2916 1793790470.201806 openat(AT_FDCWD, "/dev/adsprpc-smd-secure", O_RDONLY|O_NONBLOCK) = -1 EACCES (Permission denied) <0.000027>
+syscalls.135548:2917 1793790470.201894 openat(AT_FDCWD, "/dev/cdsprpc-smd", O_RDONLY|O_NONBLOCK) = -1 ENOENT (No such file or directory) <0.000027>
+syscalls.135548:2918 1793790470.201967 openat(AT_FDCWD, "/dev/adsprpc-smd", O_RDONLY|O_NONBLOCK) = -1 EACCES (Permission denied) <0.000023>
